@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45rem;
+}
+h1 {
+display: flex;
+justify-content: center;
+color: black;
+background-color:navajowhite;
+}
+
+.calculator {
+    background-color:darkslategray;
+    width: 27rem;
+    height: 34rem;
+    border-radius: 1rem;
+}
+
+#display {
+    width: 25rem;
+    height: 4rem;
+    text-align:end;  
+    border-radius: 1rem;
+    font-size: 3rem;
+}
+.input {
+    display: flex;
+    justify-content: center;
+}
+button {
+    font-size: 2rem;
+    background-color: white;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    height: 6rem;
+    align-items: center;
+}
+button:hover{
+    background-color: rgb(189, 189, 189);
+}
+
+#clear, #calculate{
+    background-color: coral;
+}
+#clear:hover , #calculate:hover {
+    background-color:darksalmon;
+}
+#clear:active , #calculate:active {
+    background-color: rgb(241, 174, 151);
+}
+
